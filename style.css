@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(87, 146, 248);
+    text-align: center;
+    height: 100vh;
+    padding-top: 30px;
+}
+.calulator{
+    background-color: rgb(52, 49, 49);
+    width: 350px;
+    height: 450px;
+    margin: auto;
+    border-radius: 5px;
+}
+.display{
+    padding: 15px;
+}
+.display input{
+    width: 310px;
+    height: 60px;
+    font-size: 45px;
+    text-align: right;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: rgb(70, 70, 78);
+    color: white;
+    
+}
+#display input{
+    cursor:default;
+}
+.top{
+    margin-top: 10px;
+}
+.calulator div input[type="button"]{
+    width: 65px;
+    height: 50px;
+    margin: 8px 6px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(69, 69, 78);
+    border: none;
+    color: white;
+    box-shadow: -5px -5px 6px  rgb(0, 0, 0);
+}
+.calulator div input:active{
+    box-shadow: -2px -2px 6px  rgb(0, 0, 0);
+}
+.calulator div input:hover{
+    cursor: pointer;
+}
+.calulator div #equl{
+    width: 150px ;
+}
